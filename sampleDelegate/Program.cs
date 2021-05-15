@@ -140,7 +140,7 @@ namespace sampleDelegate
 
 
             //In this section we are calling the three different methods. Instead we need to use delegates to create 3
-            //pointers to the different sorting routine and pass that to one method to run the sorting mechanism.
+            //pointers to the different sorting routine and passing them to one method to run the sorting mechanism.
 
             delegateSorter dBubble = new delegateSorter(bubblesort);
             delegateSorter dSelection = new delegateSorter(selectionSort);
